@@ -6,8 +6,7 @@ Ajax Queue is a queuing tool for handling ordered and step by step asynchronous 
 How to use
 ==========
 
-// HOW TO USE
-var demo=new AjacQueue();
+var demo=new AjaxQueue();
 
    // adding function to the queue
    demo.next(function(callback){
