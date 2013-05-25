@@ -6,6 +6,8 @@ Ajax Queue is a queuing tool for handling ordered and step by step asynchronous 
 How to use
 ==========
 
+
+
 var demo=new AjaxQueue();
    demo.next(function(callback){
        $.getJSON('/echo/json/',function(data){
@@ -38,3 +40,7 @@ var demo=new AjaxQueue();
    // NOW EXECUTE THE FUNCTIONS IN THE QUEUE IN ORDER WITH ".run()"
    
    demo.run();
+   
+   
+   
+   
