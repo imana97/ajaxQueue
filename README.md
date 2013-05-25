@@ -7,8 +7,6 @@ How to use
 ==========
 
 var demo=new AjaxQueue();
-
-   // adding function to the queue
    demo.next(function(callback){
        $.getJSON('/echo/json/',function(data){
        
